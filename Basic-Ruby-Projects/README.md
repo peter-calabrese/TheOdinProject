@@ -31,3 +31,9 @@ Implement a method #stock_picker that takes in an array of stock prices, one for
 stock_picker([17,3,6,9,15,8,6,1,10])
 => [1,4]  # for a profit of $15 - $3 == $12
 ```
+## Bubble Sort 
+Build a method #bubble_sort that takes an array and returns a sorted array. It must use the bubble sort methodology (using #sort would be pretty pointless, wouldn’t it?).
+```ruby
+bubble_sort([4,3,78,2,0,2])
+=> [0,2,2,3,4,78]
+```
