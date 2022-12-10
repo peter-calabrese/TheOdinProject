@@ -2,7 +2,7 @@ $alphabet = Array.new
 $encrypted_text = Array.new
 ("a".."z").map {|letter| $alphabet.push(letter)}
 
-def CaesarsCipher(word, shift)
+def caesars_cipher(word, shift)
   word.each_char {|letter|
     if  letter.match(/[A-Z]/)
       new_index =  $alphabet.find_index(letter.downcase) + shift
@@ -20,4 +20,4 @@ def CaesarsCipher(word, shift)
   $encrypted_text.clear
 end
 
-CaesarsCipher("What a string!", 5)
+caesars_cipher("What a string!", 5)
