@@ -1,14 +1,14 @@
 require_relative 'board.rb'
 class Game
 
-  def initialize(first_player = "Player1", second_player="Player2")
+  def initialize(first_player, second_player)
     @first_player = first_player
     @second_player = second_player
     @board = Board.new
   end
 
   def intro
-    puts "Welcome #{@first_player} and #{@second_player}"
+    puts "#{@first_player.name}: #{@first_player.shape} vs. #{@second_player.name}: #{@second_player.shape}"
     @board.draw_board
   end
 
