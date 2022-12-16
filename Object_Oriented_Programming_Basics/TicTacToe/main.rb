@@ -18,6 +18,9 @@ while game_on
   input = gets.chomp.to_i
   input-=1
   game.player_move(input, current_player) == "retry" ? next : ""
-
+  game.player_win(current_player) ?(puts "Winner: #{current_player.name}"; break) : ""
+  game.check_for_draw ? (puts "It's a draw!"; break): ""
   current_player = game.switch_player(current_player, first_player, second_player)
 end
+
+
