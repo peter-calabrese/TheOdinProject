@@ -12,7 +12,13 @@ class Game
     @board.draw_board
   end
 
-  def get_player_input(player_input)
+  def get_player_input
+    puts "Where would you like to go? [1-9]"
+    input = gets.chomp.to_i
 
+  end
+
+  def is_space_free(input)
+    @board[input] == " " ? true : false
   end
 end
