@@ -39,3 +39,6 @@ bubble_sort([4,3,78,2,0,2])
 ```
 ## Tic Tac Tie
 Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.
+
+## Event Manager
+Imagine that a friend of yours runs a non-profit organization around political activism. A number of people have registered for an upcoming event. She has asked for your help in engaging these future attendees. For the first task, she wants you to find the government representatives for each attendee based on their zip code.
