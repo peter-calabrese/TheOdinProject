@@ -37,3 +37,5 @@ Build a method #bubble_sort that takes an array and returns a sorted array. It m
 bubble_sort([4,3,78,2,0,2])
 => [0,2,2,3,4,78]
 ```
+## Tic Tac Tie
+Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.
